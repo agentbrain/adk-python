@@ -47,7 +47,7 @@ dependencies = [
   "graphviz>=0.20.2, <1.0.0",                                # Graphviz for graph rendering
   "jsonschema>=4.23.0, <5.0.0",                              # Agent Builder config validation
   "mcp>=1.10.0, <2.0.0",                                     # For MCP Toolset
-  "opentelemetry-api>=1.39.0, <=1.39.0",                     # OpenTelemetry - limit upper version for sdk and api to not risk breaking changes from unstable _logs package.
+  "opentelemetry-api>=1.39.0, <1.39.0",                     # OpenTelemetry - limit upper version for sdk and api to not risk breaking changes from unstable _logs package.
   "opentelemetry-exporter-gcp-logging>=1.9.0a0, <2.0.0",
   "opentelemetry-exporter-gcp-monitoring>=1.9.0a0, <2.0.0",
   "opentelemetry-exporter-gcp-trace>=1.9.0, <2.0.0",
